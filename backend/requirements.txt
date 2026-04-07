@@ -1,8 +1,8 @@
 fastapi
 uvicorn
 pydantic
-numpy4
-requests0
+numpy
+requests
 xgboost
 scikit-learn
 joblib

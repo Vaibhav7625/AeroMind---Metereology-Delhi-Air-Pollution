@@ -2,7 +2,7 @@ import React, { useEffect, useState, useCallback, useRef } from "react";
 import MapView from "./components/MapView";
 import "./App.css";
 
-const API = "http://localhost:8000";
+const API = process.env.REACT_APP_API_URL;
 
 const AQI_META = {
   "Good":                    { color: "#00e676", bg: "rgba(0,230,118,0.12)",  icon: "🌿" },
